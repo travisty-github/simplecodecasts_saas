@@ -15,6 +15,9 @@ end
 # User boostrap library for styles.
 gem 'bootstrap-sass', '3.3.1'
 
+# Devise for authentication.
+gem 'devise', '3.4.1'
+
 # Font awesome for awesome icons.
 gem 'font-awesome-sass', '4.2.0'
 # Use SCSS for stylesheets
