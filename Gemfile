@@ -11,7 +11,7 @@ group :production do
 end
 #Stripe
 gem 'stripe', '1.16.1'
-#Figaro
+#Figaro to hide secret keys.
 gem 'figaro', '1.0.0'
 # User boostrap library for styles.
 gem 'bootstrap-sass', '3.3.1'
