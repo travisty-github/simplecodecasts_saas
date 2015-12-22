@@ -9,6 +9,8 @@ group :production do
     gem 'pg'
     gem 'rails_12factor'
 end
+#Use paperclip for image uploads
+gem 'paperclip', '4.2.1'
 #Stripe
 gem 'stripe', '1.16.1'
 #Figaro to hide secret keys.
