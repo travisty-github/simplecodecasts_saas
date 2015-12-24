@@ -9,6 +9,8 @@ group :production do
     gem 'pg'
     gem 'rails_12factor'
 end
+#Use paperclip for image uploads
+gem 'paperclip', '4.2.1'
 #Stripe
 gem 'stripe', '1.16.1'
 #Figaro to hide secret keys.
@@ -38,7 +40,7 @@ gem 'jbuilder', '2.0'
 gem 'sdoc', '0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
+gem 'spring', '1.5.0',        group: :development
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -51,4 +53,3 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
