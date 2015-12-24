@@ -13,7 +13,7 @@
                 <%= link_to u do %>
                   <h2><%= u.profile.first_name %> <%= u.profile.last_name %></h2>
                 <% end %>
-                <p><%= u.profile.job_title %></p>
+                <p><%= u.profile.job_title %> <%= pro_label(u) %></p>
               </div>
             </div>
           </li>
